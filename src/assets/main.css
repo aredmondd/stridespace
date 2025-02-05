@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+    --color-purple: #8577FF;
+    --color-white: #FCF7F8;
+    --color-grey: #828E82;
+    --color-black: #020202;
+    
+    --font-martian-mono: 'Martian Mono', 'monospace';
+    --font-albert-sans: 'Albert Sans', 'sans-serif';
+}
