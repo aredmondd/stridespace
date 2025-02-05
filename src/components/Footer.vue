@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <template>
-    <div class="flex justify-between items-center mt-3 mx-6">
+    <div class="flex justify-between items-center">
         <RouterLink to="/" class="text-white font-martian-mono text-4xl">STRIDESPACE</RouterLink>
         <div class="flex justify-between gap-4">
             <RouterLink to="/about" class="font-albert-sans">about</RouterLink>

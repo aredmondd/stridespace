@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+    <div class="flex flex-col flex-1 justify-center items-center">
+        <h1 class="text-purple">about</h1>
+    </div>
 </template>
