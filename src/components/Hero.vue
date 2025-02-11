@@ -1,7 +1,16 @@
 <template>
     <!-- destkop version -->
-    <div class="hidden sm:flex items-center text-purple p-4 px-8">
+    <div class="hidden sm:block items-center text-purple p-4 px-8">
         <h1 class="font-martian-mono text-9xl">STRIDESPACE</h1>
+        <div class="flex text-2xl opacity-50 font-martian-mono items-center justify-between text-white mx-4">
+            <p>find</p>
+            <p>new</p>
+            <p>ways</p>
+            <p>to</p>
+            <p>see</p>
+            <p>your</p>
+            <p>runs</p>
+        </div>
     </div>
 
     <!-- mobile version -->

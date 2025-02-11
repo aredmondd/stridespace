@@ -7,7 +7,7 @@
         </div>
         <div class="rounded-lg p-6 sm:px-12">
             <div class="text-lg font-martian-mono text-center">generate art based on your run</div>
-            <img src="../assets/abstract_run_art.png" alt="" width="400" class="mt-4">
+            <img src="../assets/art/abstract_run_art.png" alt="" width="400" class="mt-4">
             <p class="opacity-25 font-inter text-center pt-2 text-sm sm:text-lg">(based on 5 miles at 7:35/mi)</p>
         </div>    
         <div class="rounded-lg p-6 sm:px-12">

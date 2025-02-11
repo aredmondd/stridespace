@@ -3,6 +3,7 @@ import Hero from '@/components/Hero.vue';
 import BreathingText from '@/components/BreathingText.vue';
 import { RouterLink } from 'vue-router';
 import Features from '@/components/Features.vue';
+import ContentScroller from '@/components/ContentScroller.vue';
 </script>
 
 <template>
@@ -14,6 +15,8 @@ import Features from '@/components/Features.vue';
         </div>
 
         <Features />
+
+        <ContentScroller/>
 
         <div class="flex flex-col gap-4 items-center justify-center mt-24 mx-12 mb-32">
             <div class="p-2 mt-6">
