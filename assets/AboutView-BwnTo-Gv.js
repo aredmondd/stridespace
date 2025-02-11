@@ -1,0 +1,1 @@
+import{_ as s,c as t,a as o,o as r}from"./index-BSp99sij.js";const c={},n={class:"flex flex-col flex-1 justify-center items-center"};function a(d,e){return r(),t("div",n,e[0]||(e[0]=[o("div",{class:"border border-white rounded-sm px-24 py-18"},"about us",-1)]))}const i=s(c,[["render",a]]);export{i as default};
