@@ -12,7 +12,8 @@ import Link from './Link.vue';
             <Link :link="'signup'" :route="'/signup'" />
             <a href="https://github.com/aredmondd/stridespace" target="_blank" class="font-inter hover:text-purple transition-colors duration-250 ease-in-out">source code</a>
         </div>
-        <p class="text-white opacity-25 font-martian-mono text-sm my-6">all aspects of this website were designed and implemented by aiden redmond</p>
+        <div class="flex justify-between text-white opacity-25 font-marian-mono text-sm"></div>
+        <p class="text-white opacity-25 font-martian-mono text-xs">all aspects of this website were designed and implemented by aiden redmond</p>
     </div>
 
     <div class="hidden sm:flex justify-between items-center">
