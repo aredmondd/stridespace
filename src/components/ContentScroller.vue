@@ -17,8 +17,8 @@ console.log(imageList);
 </script>
 
 <template>
-    <h2 class="mt-24 font-martian-mono text-2xl mb-6 mx-12">connect your <a class="underline underline-offset-2" href="https://strava.com" target="_blank">strava</a> account, and get <span class="text-purple">custom art</span> based on each run</h2>
-    <div class="flex-grow flex items-center">
+    <h2 class="mt-48 font-martian-mono text-xl opacity-75 mb-6 mx-12 text-center sm:text-4xl">recently generated art</h2>
+    <div class="flex-grow flex items-center mb-32">
         <div class="w-full inline-flex flex-nowrap overflow-x-hidden [mask-image:_linear-gradient(to_right,transparent_0,white,black,transparent_100%)] group">
             <ul class="flex animate-loop-fast-scroll sm:animate-loop-scroll">
                 <li v-for="(image, index) in imageList" :key="index" class="w-40 sm:w-64 mr-3 sm:mr-4 h-full">
