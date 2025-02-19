@@ -9,8 +9,8 @@
         <div class="arrow"></div>
         <div class="flex flex-col items-center justify-center font-martian-mono">
             <p class="mb-4 text-3xl">2</p>
-            <img src="../assets/strava.png" alt="" width="200">
-            <p class="mt-4">connect your <a href="https://www.strava.com" class="underline underline-offset-2 text-purple" target="_blank">strava</a></p>
+            <img src="../assets/strava.png" alt="" width="200" class="bg-[#FC4C02]">
+            <p class="mt-4">connect your <a href="https://www.strava.com" class="underline underline-offset-2 hover:text-purple transition-all duration-250 ease-in-out" target="_blank">strava</a></p>
         </div>
         <div class="arrow"></div>
         <div class="flex flex-col items-center justify-center font-martian-mono">
@@ -29,7 +29,7 @@
         <div class="mobile-arrow"></div>
         <div class="flex flex-col items-center justify-center font-martian-mono">
             <img src="../assets/strava.png" alt="" width="200">
-            <p class="mt-4">connect your <a href="https://www.strava.com" class="underline underline-offset-2 text-purple" target="_blank">strava</a></p>
+            <p class="mt-4">connect your <a href="https://www.strava.com" class="underline underline-offset-2 hover:text-purple transition-all duration-250 ease-in-out" target="_blank">strava</a></p>
         </div>
         <div class="mobile-arrow"></div>
         <div class="flex flex-col items-center justify-center font-martian-mono">
