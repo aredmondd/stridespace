@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col flex-1 justify-center items-center">
-        <div class="border border-white rounded-sm px-24 py-18">about us</div>
+    <div class="flex flex-col flex-1 mt-12 mx-3">
+        <div class="font-martian-mono text-purple text-7xl">WHAT IS STRIDESPACE?</div>
     </div>
 </template>

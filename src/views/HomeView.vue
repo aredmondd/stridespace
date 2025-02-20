@@ -7,18 +7,17 @@ import GetStarted from '@/components/GetStarted.vue';
 </script>
 
 <template>
-    <main class="flex flex-col flex-1">
+    <main class="flex flex-col flex-1 mx-12 border-x-1 border-white/15">
         <div class="flex justify-center items-center mt-24">
             <div class="flex flex-col">
-                <Hero />
+                <!-- <Hero /> -->
             </div>
         </div>
 
         <Features />
 
-        <GetStarted />
 
-        <div class="flex flex-col gap-4 items-center justify-center mt-48 mx-12">
+        <div class="flex flex-col gap-4 items-center justify-center mx-12">
             <div class="p-2 mt-6">
                 <h1 class="font-martian-mono text-2xl opacity-75 sm:text-4xl">get started today</h1>
             </div>
