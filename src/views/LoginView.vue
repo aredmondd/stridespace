@@ -5,7 +5,7 @@
 
         <!-- Hero Text -->
         <div class="z-10 flex flex-col items-center text-white rounded-lg p-4 px-8">
-            <h1 class="font-martian-mono text-[9rem] leading-none tracking-tight">LOGIN</h1>
+            <h1 class="font-martian-mono text-[9rem] leading-none tracking-tight">WHY IS <br>STRIDESPACE?</h1>
         </div>
     </div>
 </template>

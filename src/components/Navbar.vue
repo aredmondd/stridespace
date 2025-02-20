@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-import Link from './Link.vue';
+import Link from './NavLink.vue';
 import { RouterLink } from 'vue-router';
 
 const isOpen = ref(false);
@@ -18,10 +18,10 @@ const isOpen = ref(false);
         </button>
     
         <!-- Desktop Menu -->
-        <div class="hidden md:flex justify-between items-center gap-4 pr-3 border-r-1 border-white/15">
+        <div class="hidden md:flex border-r-1 border-white/15">
             <Link :link="'about'" :route="'/about'" />
-            <Link :link="'pricing'" :route="'/pricing'" />
             <Link :link="'login'" :route="'/login'" />
+            <Link :link="'signup'" :route="'/signup'" />
         </div>
     
         <!-- Full Screen Mobile Menu Modal -->
@@ -29,7 +29,6 @@ const isOpen = ref(false);
             <button @click="isOpen = false" class="absolute top-5 right-5 text-white text-3xl">&times;</button>
             <div class="flex flex-col items-center gap-6">
                 <Link :link="'about'" :route="'/about'" @click="isOpen = false" class="text-2xl" />
-                <Link :link="'pricing'" :route="'/pricing'" @click="isOpen = false" class="text-2xl" />
                 <Link :link="'login'" :route="'/login'" @click="isOpen = false" class="text-2xl" />
             </div>
         </div>
