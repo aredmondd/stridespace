@@ -8,7 +8,7 @@ const isOpen = ref(false);
 
 <template>
     <div class="flex justify-between border-b-1 border-white/15 px-12">
-        <RouterLink to="/" class="pl-3 py-4 border-l-1 border-white/15 text-white font-martian-mono text-5xl hover:text-purple transition-colors duration-250 ease-in-out">STRIDESPACE</RouterLink>
+        <RouterLink to="/" class="px-3 py-4 border-x-1 border-white/15 text-white font-martian-mono text-5xl hover:text-purple transition-colors duration-250 ease-in-out">STRIDESPACE</RouterLink>
     
         <!-- Mobile Menu Button -->
         <button @click="isOpen = true" class="md:hidden text-white focus:outline-none">
